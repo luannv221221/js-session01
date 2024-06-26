@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // khái niệm biến 
+        // sử dụng để lưu trữ dữ liệu 1, các giá trị tạm thời trong chương trình và có thể thay đổi được giá trị 
+
+        // cú pháp khai báo biến trong javascript 
+        // var ten_bien = "Giá trị của biến "
+
+        var fullName = "Nguyễn Văn A";
+        fullName = "Nguyễn Văn B";
+        var age = 18;
+        console.log(fullName)
+
+        // Quy tắc đặt tên 
+        // phải bắt đầu bằng ký tự không phải là số 
+        // Không chứa các ký tự đặc biệt trừ _ 
+        // Phân biệt chữ hoa và chữ thường  
+        // không trùng từ khóa 
+
+        // Quy ước đặt tên 
+        var hoten = "Nguyễn Văn C";
+        var ho_ten = "Nguyễn Văn A";
+        var heTen = "Nguyeenx Vawn D";
+        // Khai niệm hằng số 
+        // Hằng số cũng là biến nhưng không thể thay đổi giá trị 
+        const PI = 3.14;
+        // PI = 3.15;
+
+        // Kiểu dữ liệu  
+        // khai báo biến có kiểu dữ liệu string 
+        var userName = "Nguyễn Văn A";
+        userName = 'Nguyễn Văn Bách';
+        console.log(userName);
+        // khai báo biến có kiểu dữ liệu number 
+        var age = 19;
+        var height = 1.73;
+        console.log(typeof (height));
+
+        // kiểu dữ liệu Boolean
+        var sex = true;
+        sex = false;
+        sex = true;
+        // if (sex) {
+        //     console.log("Bạn giới tính Nam");
+        // } else {
+        //     console.log("Bạn giới tính Nữ");
+        // }
+
+        // Toán tử 
+        // toán tử gán = 
+        var num1 = 10;
+        var num2 = 20;
+        // gán giá trị của biến num1 cho biến num2 (thay đổi giá trị của biến num2 bằng giá trị của biến num1)
+        num2 = num1;
+        console.log("giá trị biến num2 = " + num2);
+
+        // Toán tử toán học 
+        // toán tử cộng (+)
+        // toán tử trừ (-)
+        // toán tử nhận (*)
+        // toán tử chia lấy phần nguyên (/)
+        // toán tử chia lấy dư (%)
+        // toán tử tăng 1 đơn vị ++
+        // toán tử giảm 1 đơn vị --
+        var a = 10;
+        var b = a / 20;
+        console.log(b);
+
+        var num1 = 1;
+        var num2 = 5;
+        console.log(num2 % num1);
+
+        var num3 = num1 + num2;
+        // var num4 = num3++;
+        ++num3;
+        console.log(num3);
+
+        // Toán tử gán = 
+        // += 
+        var so1 = 10;
+        var so2 = 20;
+        so1 = so1 + so2;
+        so1 *= so2; // so1 = so1*so2;
+        console.log(so1);
+        // Toán tử so sánh 
+        // so sánh bẳng == giá trị 
+        var num1 = 10;
+        var num2 = 10;
+        var num3 = 10;
+        var check = num1 == num3;
+        console.log(check);
+        // so sánh bẳng === giá trị và kiểu dữ liệu 
+        var check = num1 === num3;
+        console.log(check);
+        // so sánh lớn hơn >
+        console.log(num1 > num2);
+        // so sánh nhở hơn <
+        console.log(num1 < num2);
+        // so sánh khác != 
+        num1 = '10';
+        console.log(num1 != num2);
+        // OR !===
+        console.log(num1 !== num2);
+        // so sánh lơn hơn hoặc bằng >=
+        // so sánh nhỏ hơn hoặc bằng <=
+        // Toán tử logic 
+
+        var a = 10;
+        a = -9
+        // kiểm tra xem a có phải số chẵn là lớn hơn 0 hay không 
+        console.log(a > 0 && a % 2 == 0);
+
+        var b = 20;
+        var c = -10;
+        console.log(c > 0 || b % 2 == 0);
+
+        var check = false;
+        console.log(!check);
+
+    </script>
+</body>
+
+</html>
